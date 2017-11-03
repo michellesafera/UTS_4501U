@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <ImageView
+        android:layout_width="75dp"
+        android:layout_height="75dp"
+        android:src="@drawable/fotoo"
+        android:id="@+id/foto"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Cantona"
+        android:textSize="18dp"
+        android:textStyle="bold"
+        android:layout_toRightOf="@+id/foto"
+        android:layout_marginTop="5dp"
+        android:id="@+id/pengirim"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Benar-benar malam yang indah ya"
+        android:textSize="14dp"
+        android:layout_below="@+id/pengirim"
+        android:layout_toRightOf="@+id/foto"
+        android:layout_marginTop="10px"
+        android:id="@+id/konten"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3 Nov 2017"
+        android:textSize="12dp"
+        android:layout_marginTop="5dp"
+        android:layout_alignParentRight="true"
+        android:id="@+id/tgl"/>
+
+
+
+
+</RelativeLayout>
